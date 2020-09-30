@@ -6,6 +6,8 @@ import {Demo2} from './pages/Demo2/index';
 import {Demo3} from './pages/Demo3/index';
 import {Demo4} from './pages/Demo4/index';
 import {Demo5} from './pages/Demo5/index';
+import Demo6 from './pages/Demo6/index';
+import Demo7 from './pages/Demo7/index';
 
 const RootStack = createStackNavigator(
     {
@@ -43,6 +45,18 @@ const RootStack = createStackNavigator(
             screen: Demo5,
             navigationOptions: {
                 headerTitle: 'Demo5'
+            }
+        },
+        Demo6: {
+            screen: Demo6,
+            navigationOptions: {
+                headerTitle: 'Demo6'
+            }
+        },
+        Demo7: {
+            screen: Demo7,
+            navigationOptions: {
+                headerTitle: 'Demo7'
             }
         }
     },

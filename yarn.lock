@@ -1283,11 +1283,6 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/node@^9.6.39":
-  version "9.6.59"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-9.6.59.tgz?cache=0&sync_timestamp=1600732809777&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-9.6.59.tgz#76eabeeb8d87ce05e232e5680feaef38ee9eae90"
-  integrity sha1-duq+642HzgXiMuVoD+rvOO6erpA=
-
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/@types/stack-utils/download/@types/stack-utils-1.0.1.tgz?cache=0&sync_timestamp=1600733056390&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fstack-utils%2Fdownload%2F%40types%2Fstack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
@@ -3757,6 +3752,11 @@ md5-file@^3.2.3:
   dependencies:
     buffer-alloc "^1.1.0"
 
+memoize-one@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.npm.taobao.org/memoize-one/download/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
+  integrity sha1-BHtuMZm1COrsA1BN5xIpuOsddcA=
+
 merge-stream@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/merge-stream/download/merge-stream-1.0.1.tgz#4041202d508a342ba00174008df0c251b8c135e1"
@@ -4194,7 +4194,7 @@ mobx@^4.3.0:
   resolved "https://registry.npm.taobao.org/mobx/download/mobx-4.15.7.tgz#933281268c3b4658b6cf2526e872cf78ea48ab95"
   integrity sha1-kzKBJow7Rli2zyUm6HLPeOpIq5U=
 
-moment@^2.24.0, moment@^2.27.0:
+moment@^2.19.3, moment@^2.24.0, moment@^2.27.0:
   version "2.29.0"
   resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.0.tgz?cache=0&sync_timestamp=1600761794339&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmoment%2Fdownload%2Fmoment-2.29.0.tgz#fcbef955844d91deb55438613ddcec56e86a3425"
   integrity sha1-/L75VYRNkd61VDhhPdzsVuhqNCU=
@@ -4723,13 +4723,6 @@ react-dom@~16.13.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-google-calendar-api@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.npm.taobao.org/react-google-calendar-api/download/react-google-calendar-api-1.2.1.tgz#92595004c509fc725f9f7e524c6957fab0c62b8a"
-  integrity sha1-kllQBMUJ/HJfn35STGlX+rDGK4o=
-  dependencies:
-    "@types/node" "^9.6.39"
-
 react-is@^16.12.0, react-is@^16.5.2, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.13.1"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1600731971537&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -4815,6 +4808,14 @@ react-native-tab-view@^1.0.0:
   dependencies:
     prop-types "^15.6.1"
 
+react-native-timetable@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/react-native-timetable/download/react-native-timetable-1.0.4.tgz#4a7ec72078340b3b844864900f0f71fe473e4370"
+  integrity sha1-Sn7HIHg0CzuESGSQDw9x/kc+Q3A=
+  dependencies:
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+
 react-native-web@0.13.13:
   version "0.13.13"
   resolved "https://registry.npm.taobao.org/react-native-web/download/react-native-web-0.13.13.tgz#4d933af4049961104be933257f28d0570c425f84"
@@ -4829,6 +4830,15 @@ react-native-web@0.13.13:
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.4"
+
+react-native-week-view@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.npm.taobao.org/react-native-week-view/download/react-native-week-view-0.0.19.tgz#7f2e45cfbebc84b21982383c5665534182fab813"
+  integrity sha1-fy5Fz768hLIZgjg8VmVTQYL6uBM=
+  dependencies:
+    memoize-one "^5.1.1"
+    moment "^2.19.3"
+    prop-types "^15.7.2"
 
 "react-native@https://github.com/expo/react-native/archive/sdk-39.0.2.tar.gz":
   version "0.63.2"
